@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "typed_params"
+version = "0.0.1"
+authors = [
+    { name="Adam Carruthers", email="adam.carruthers1@nhs.net" },
+    { name="Amaan Ibn-Nasar", email="amaan.ibn-nasar1@nhs.net" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
+
+[project.urls]
+"Homepage" = "https://nhsd-git.digital.nhs.uk/data-services/analytics-service/social-care/typed_params"
